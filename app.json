@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "supermarket",
-    "slug": "supermarket",
+    "name": "supermarket-demo",
+    "slug": "supermarket-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,6 +20,8 @@
     ],
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.simonline.supermarketdemo",
+      "buildNumber": "1.0.0",
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to let user scan bar codes of products."
       }
@@ -29,7 +31,9 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "permissions": ["CAMERA", "CAMERA_ROLL"]
+      "permissions": ["CAMERA", "CAMERA_ROLL"],
+      "package": "com.simonline.supermarketdemo",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/images/favicon.png"

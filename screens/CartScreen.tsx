@@ -1,13 +1,14 @@
+import React from "react";
 import { StyleSheet } from 'react-native';
 
-import { Text, View } from '../components/Themed';
+import { View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
+import CrossPlatformForm from "../components/CrossPlatformForm";
 
 export default function HomeScreen({ navigation }: RootTabScreenProps<'Home'>) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Warenkorb</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <CrossPlatformForm />
     </View>
   );
 }
